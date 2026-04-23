@@ -664,7 +664,7 @@ imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/customiz
 imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/customizable-select/select-picker-starting-style.html [ Skip ]
 
 # Untriaged.
-imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/customizable-select/selectedcontent-restore.html [ Skip ]
+imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/customizable-select/selectedcontent-restore.optional.html [ Skip ]
 
 # List boxes/<select multiple>.
 imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/customizable-select-listbox/ [ Skip ]
@@ -673,7 +673,7 @@ imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/customiz
 ## -- General <select> tests -- ##
 imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/select-restore-invalid-option.html [ Skip ]
 imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/select-many-options.tentative.html [ Skip ]
-imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/select-multiple-size-1.tentative.html [ ImageOnlyFailure ]
+imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/select-multiple-size-1.html [ ImageOnlyFailure ]
 imported/w3c/web-platform-tests/html/semantics/forms/the-select-element/select-popover-position-with-zoom.tentative.html [ Skip ]
 imported/w3c/web-platform-tests/html/rendering/replaced-elements/the-select-element/select-empty.html [ ImageOnlyFailure ]
 imported/w3c/web-platform-tests/html/rendering/replaced-elements/the-select-element/select-button-min-height-001.html [ ImageOnlyFailure ]
@@ -4945,22 +4945,12 @@ webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/backgrou
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-6.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-attachment-local/attachment-local-positioning-3.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-attachment-local/attachment-local-positioning-4.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/background-size-vector-004.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/background-size-vector-006.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/background-size-vector-008.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/background-size-vector-010.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/background-size-vector-012.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/background-size-vector-014.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/background-size-vector-016.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/background-size-vector-018.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-omitted-height-viewbox.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-omitted-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-percent-height-viewbox.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-percent-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-omitted-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-percent-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-omitted-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-percent-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-omitted-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-percent-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--contain--omitted-width-nonpercent-height.html [ ImageOnlyFailure ]
@@ -4969,20 +4959,10 @@ webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/backgrou
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-omitted-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-percent-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/tall--cover--width.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-omitted-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-percent-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-nonpercent-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-omitted-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-percent-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-nonpercent-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-omitted-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-percent-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-omitted-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-percent-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-omitted-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-percent-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-omitted-height.html [ ImageOnlyFailure ]
-webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-omitted-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-percent-height.html [ ImageOnlyFailure ]
 webkit.org/b/206753 imported/w3c/web-platform-tests/css/css-backgrounds/background-size/vector/wide--contain--omitted-width-nonpercent-height.html [ ImageOnlyFailure ]
@@ -6994,8 +6974,6 @@ webkit.org/b/245032 imported/w3c/web-platform-tests/css/compositing/root-element
 
 webkit.org/b/261916 media/video-pause-while-seeking.html [ Pass Failure ]
 
-webkit.org/b/263233 http/tests/security/block-top-level-navigation-via-redirect-by-third-party-iframes.html [ Failure Pass ]
-
 webkit.org/b/263434 imported/w3c/web-platform-tests/uievents/order-of-events/mouse-events/wheel-basic.html [ Skip ]
 
 webkit.org/b/261810 imported/w3c/web-platform-tests/css/css-scroll-snap/input/mouse-wheel.html [ Skip ]
@@ -7619,7 +7597,6 @@ imported/w3c/web-platform-tests/css/css-anchor-position/anchor-position-multicol
 imported/w3c/web-platform-tests/css/css-anchor-position/anchor-position-multicol-nested-001.html [ ImageOnlyFailure ]
 imported/w3c/web-platform-tests/css/css-anchor-position/container-queries/anchored-fallback-color-change.html [ ImageOnlyFailure ]
 imported/w3c/web-platform-tests/css/css-anchor-position/container-queries/anchored-fallback-style-containment.html [ ImageOnlyFailure ]
-imported/w3c/web-platform-tests/css/css-anchor-position/position-visibility-anchors-visible-with-position-002.html
 imported/w3c/web-platform-tests/css/css-anchor-position/position-area-overflow-icb-001.html [ ImageOnlyFailure ]
 
 # This is passing only on mac-wk2
